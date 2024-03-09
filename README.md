@@ -38,7 +38,7 @@ To run this project, you need to have Node.js and npm installed on your machine.
     ```
 4. Start the development server:
     ```bash
-    npm start
+    npm run dev
     ```
 5. Open http://localhost:3000 to view it in the browser.
 
