@@ -1,29 +1,41 @@
-# Fast React Pizza 🍕
+# 🍕 Fast React Pizza
 
 Fast React Pizza is a simple pizza builder application built with React, TypeScript, and CSS Modules. This project demonstrates best practices in organizing components, handling state, and managing form inputs in a React application.
 
-## Features 🌟
+## 📋 Table of Contents
+- [🍕 Fast React Pizza](#-fast-react-pizza)
+  - [📋 Table of Contents](#-table-of-contents)
+  - [📖 About](#-about)
+  - [🌟 Features](#-features)
+  - [💻 Tech Stack](#-tech-stack)
+  - [🚀 Installation](#-installation)
+    - [Prerequisites](#prerequisites)
+    - [Steps](#steps)
+  - [💻 Usage](#-usage)
 
-- Customize your pizza by selecting the crust, size, and toppings.
-- View the total price of your pizza as you make your selections.
-- Clear your selections and start over with a single click.
+## 📖 About
+Fast React Pizza is an interactive and user-friendly pizza builder application where you can customize your pizza by selecting the crust, size, and toppings. The app updates the total price dynamically and allows you to clear selections and start over easily.
 
-## Tech Stack 💻
+## 🌟 Features
+- 🍕 Customize your pizza by selecting the crust, size, and toppings.
+- 💵 View the total price of your pizza as you make your selections.
+- 🔄 Clear your selections and start over with a single click.
 
-- React: A JavaScript library for building user interfaces.
-- TypeScript: A strongly typed superset of JavaScript.
-- CSS Modules: A CSS file in which all class names and animation names are scoped locally by default.
-- ESLint: A pluggable linting utility for JavaScript.
-- Prettier: An opinionated code formatter.
+## 💻 Tech Stack
+- **Frontend**: ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+- **TypeScript**: ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+- **Styling**: ![CSS Modules](https://img.shields.io/badge/CSS%20Modules-000?style=for-the-badge&logo=css3&logoColor=1572B6)
+- **State Management**: ![Redux Toolkit](https://img.shields.io/badge/Redux%20Toolkit-764ABC?style=for-the-badge&logo=redux&logoColor=white)
+- **Routing**: ![React Router](https://img.shields.io/badge/React%20Router-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white)
+- **Build Tool**: ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+- **Linting**: ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
+- **Formatting**: ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=white)
 
-## Getting Started 🚀
-
+## 🚀 Installation
 ### Prerequisites
+To run this project, you need to have Node.js and npm installed on your machine. You can download Node.js [here](https://nodejs.org/).
 
-To run this project, you need to have Node.js and npm installed on your machine. You can download Node.js from here. npm is included with Node.js.
-
-### Installation
-
+### Steps
 1. Clone the repository:
     ```bash
     git clone https://github.com/AmirrMahmoudi/fast-react-pizza.git
@@ -36,15 +48,8 @@ To run this project, you need to have Node.js and npm installed on your machine.
     ```bash
     npm install
     ```
-4. Start the development server:
-    ```bash
-    npm run dev
-    ```
-5. Open http://localhost:3000 to view it in the browser.
 
-## Running the tests 🧪
-
-To run the tests, execute the following command in the project directory:
-
+## 💻 Usage
+To run the project locally:
 ```bash
-npm test
+npm run dev
